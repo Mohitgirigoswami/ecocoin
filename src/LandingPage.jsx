@@ -102,14 +102,14 @@ const LandingPage = () => {
         <section id="how-it-works" className="py-20">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold mb-12 text-base-content">Get Started in 3 Easy Steps</h2>
-            <ul className="steps steps-vertical lg:steps-horizontal">
-              <li className="step step-primary" style={{ '--p-bg': '#52b788', '--p-text': 'white' }}>
+            <ul className="steps steps-vertical lg:steps-horizontal ">
+              <li className="step step-accent" style={{ '--p-bg': '#52b788', '--p-text': 'white' }}>
                 <div className="text-left p-4"><strong>Create an Account</strong><br/>Sign up for free in minutes.</div>
               </li>
-              <li className="step step-primary" style={{ '--p-bg': '#52B788', '--p-text': 'white' }}>
+              <li className="step step-accent" style={{ '--p-bg': '#52B788', '--p-text': 'white' }}>
                 <div className="text-left p-4"><strong>Complete Eco-Tasks</strong><br/>Choose from a list of simple, green tasks.</div>
               </li>
-              <li className="step step-primary" style={{ '--p-bg': '#52B788', '--p-text': 'white' }}>
+              <li className="step step-accent" style={{ '--p-bg': '#52B788', '--p-text': 'white' }}>
                 <div className="text-left p-4"><strong>Earn & Spend</strong><br/>Get EcoCoins and use them with our partners.</div>
               </li>
             </ul>
